@@ -1,0 +1,1654 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0712.0907                               -->
+<workbook source-build='2021.2.1 (20212.21.0712.0907)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='worldometers_snapshots_April18_ (worldometers_snapshots_April18_to_September20)' inline='true' name='federated.1qpnhej1l6uuov1gbs4xx17g6ijw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='worldometers_snapshots_April18_to_September20' name='excel-direct.0n3fc8r0jikrtg18228p911f1ymv'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Yatharth Mathur/Desktop/UBC_STUDY/Year1/Summer/DATA301/Project/project-group18-project/data/processed/worldometers_snapshots_April18_to_September20.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0n3fc8r0jikrtg18228p911f1ymv' name='worldometers_snapshots_April18_' table='[worldometers_snapshots_April18_$]' type='table'>
+          <columns gridOrigin='A1:K10001:no:A1:K10001:0' header='yes' outcome='6'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='Country' ordinal='1' />
+            <column datatype='integer' name='Population' ordinal='2' />
+            <column datatype='integer' name='Total_Tests' ordinal='3' />
+            <column datatype='integer' name='Total_Cases' ordinal='4' />
+            <column datatype='integer' name='Total_Deaths' ordinal='5' />
+            <column datatype='integer' name='Total_Recovered' ordinal='6' />
+            <column datatype='integer' name='Active_Cases' ordinal='7' />
+            <column datatype='integer' name='New Cases' ordinal='8' />
+            <column datatype='integer' name='New Deaths' ordinal='9' />
+            <column datatype='real' name='Percentage_Positive' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0n3fc8r0jikrtg18228p911f1ymv' name='worldometers_snapshots_April18_' table='[worldometers_snapshots_April18_$]' type='table'>
+          <columns gridOrigin='A1:K10001:no:A1:K10001:0' header='yes' outcome='6'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='Country' ordinal='1' />
+            <column datatype='integer' name='Population' ordinal='2' />
+            <column datatype='integer' name='Total_Tests' ordinal='3' />
+            <column datatype='integer' name='Total_Cases' ordinal='4' />
+            <column datatype='integer' name='Total_Deaths' ordinal='5' />
+            <column datatype='integer' name='Total_Recovered' ordinal='6' />
+            <column datatype='integer' name='Active_Cases' ordinal='7' />
+            <column datatype='integer' name='New Cases' ordinal='8' />
+            <column datatype='integer' name='New Deaths' ordinal='9' />
+            <column datatype='real' name='Percentage_Positive' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[worldometers_snapshots_April18_]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K10001:no:A1:K10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[worldometers_snapshots_April18_]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers!snapshots!April18!_06CD6B1B79ED413E83C9DAEB4513C146]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[worldometers_snapshots_April18_]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers!snapshots!April18!_06CD6B1B79ED413E83C9DAEB4513C146]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[worldometers_snapshots_April18_]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers!snapshots!April18!_06CD6B1B79ED413E83C9DAEB4513C146]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Tests</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Tests]</local-name>
+            <parent-name>[worldometers_snapshots_April18_]</parent-name>
+            <remote-alias>Total_Tests</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers!snapshots!April18!_06CD6B1B79ED413E83C9DAEB4513C146]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Cases]</local-name>
+            <parent-name>[worldometers_snapshots_April18_]</parent-name>
+            <remote-alias>Total_Cases</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers!snapshots!April18!_06CD6B1B79ED413E83C9DAEB4513C146]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Deaths]</local-name>
+            <parent-name>[worldometers_snapshots_April18_]</parent-name>
+            <remote-alias>Total_Deaths</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers!snapshots!April18!_06CD6B1B79ED413E83C9DAEB4513C146]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Recovered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Recovered]</local-name>
+            <parent-name>[worldometers_snapshots_April18_]</parent-name>
+            <remote-alias>Total_Recovered</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers!snapshots!April18!_06CD6B1B79ED413E83C9DAEB4513C146]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Active_Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Active_Cases]</local-name>
+            <parent-name>[worldometers_snapshots_April18_]</parent-name>
+            <remote-alias>Active_Cases</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers!snapshots!April18!_06CD6B1B79ED413E83C9DAEB4513C146]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Cases]</local-name>
+            <parent-name>[worldometers_snapshots_April18_]</parent-name>
+            <remote-alias>New Cases</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers!snapshots!April18!_06CD6B1B79ED413E83C9DAEB4513C146]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Deaths]</local-name>
+            <parent-name>[worldometers_snapshots_April18_]</parent-name>
+            <remote-alias>New Deaths</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers!snapshots!April18!_06CD6B1B79ED413E83C9DAEB4513C146]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage_Positive</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage_Positive]</local-name>
+            <parent-name>[worldometers_snapshots_April18_]</parent-name>
+            <remote-alias>Percentage_Positive</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers!snapshots!April18!_06CD6B1B79ED413E83C9DAEB4513C146]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Active Cases' datatype='integer' name='[Active_Cases]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Calculation1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='ZN(SUM([Population])) - LOOKUP(ZN(SUM([Population])), -1)'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Colors Five' datatype='string' name='[Calculation_2223933796451827712]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF ([Country]) = &quot;Brazil&quot; THEN &quot;Brazil&quot; &#13;&#10;ELSEIF  ([Country]) = &quot;India&quot; THEN &quot;India&quot; &#13;&#10;ELSEIF ([Country]) = &quot;USA&quot; THEN &quot;USA&quot; &#13;&#10;ELSEIF ([Country]) = &quot;Russia&quot; THEN &quot;Russia&quot; &#13;&#10;ELSEIF ([Country]) = &quot;France&quot; THEN &quot;France&quot; &#13;&#10;END' />
+      </column>
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+      <column aggregation='None' datatype='integer' name='[Total Cases (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='5' formula='[Total_Cases]' peg='0' size='115617' />
+      </column>
+      <column caption='Total Cases' datatype='integer' name='[Total_Cases]' role='measure' type='quantitative' />
+      <column caption='Total Deaths' datatype='integer' name='[Total_Deaths]' role='measure' type='quantitative' />
+      <column caption='Total Recovered' datatype='integer' name='[Total_Recovered]' role='measure' type='quantitative' />
+      <column caption='Total Tests' datatype='integer' name='[Total_Tests]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='worldometers_snapshots_April18_' datatype='table' name='[__tableau_internal_object_id__].[worldometers!snapshots!April18!_06CD6B1B79ED413E83C9DAEB4513C146]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_2223933796451827712]' derivation='None' name='[none:Calculation_2223933796451827712:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Date]' derivation='None' name='[none:Date:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Exclusions (Colors Five,Country,Date)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Calculation_2223933796451827712:nk]' />
+          <groupfilter function='level-members' level='[none:Country:nk]' />
+          <groupfilter function='level-members' level='[none:Date:qk]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Exclusions (Country,Date)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Country:nk]' />
+          <groupfilter function='level-members' level='[none:Date:qk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_2223933796451827712:nk]' type='palette'>
+            <map to='#24693d'>
+              <bucket>&quot;Green&quot;</bucket>
+            </map>
+            <map to='#2a5783'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#428f4d'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Blue&quot;</bucket>
+            </map>
+            <map to='#59504e'>
+              <bucket>&quot;Black&quot;</bucket>
+            </map>
+            <map to='#59504e'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#c11a3b'>
+              <bucket>&quot;USA&quot;</bucket>
+            </map>
+            <map to='#db5e20'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#e13b42'>
+              <bucket>&quot;Red&quot;</bucket>
+            </map>
+            <map to='#f2882d'>
+              <bucket>&quot;Orange&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='worldometers_snapshots_April18_' id='worldometers!snapshots!April18!_06CD6B1B79ED413E83C9DAEB4513C146'>
+            <properties context=''>
+              <relation connection='excel-direct.0n3fc8r0jikrtg18228p911f1ymv' name='worldometers_snapshots_April18_' table='[worldometers_snapshots_April18_$]' type='table'>
+                <columns gridOrigin='A1:K10001:no:A1:K10001:0' header='yes' outcome='6'>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='string' name='Country' ordinal='1' />
+                  <column datatype='integer' name='Population' ordinal='2' />
+                  <column datatype='integer' name='Total_Tests' ordinal='3' />
+                  <column datatype='integer' name='Total_Cases' ordinal='4' />
+                  <column datatype='integer' name='Total_Deaths' ordinal='5' />
+                  <column datatype='integer' name='Total_Recovered' ordinal='6' />
+                  <column datatype='integer' name='Active_Cases' ordinal='7' />
+                  <column datatype='integer' name='New Cases' ordinal='8' />
+                  <column datatype='integer' name='New Deaths' ordinal='9' />
+                  <column datatype='real' name='Percentage_Positive' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_2A35589802F34094A67DDDED5EB49996]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Chris_Dashboard' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Colors Five' />
+        <param name='target' value='Chris_Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Deaths And Cases'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Cases and Deaths &#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='worldometers_snapshots_April18_ (worldometers_snapshots_April18_to_September20)' name='federated.1qpnhej1l6uuov1gbs4xx17g6ijw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qpnhej1l6uuov1gbs4xx17g6ijw'>
+            <column caption='Active Cases' datatype='integer' name='[Active_Cases]' role='measure' type='quantitative' />
+            <column caption='Colors Five' datatype='string' name='[Calculation_2223933796451827712]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF ([Country]) = &quot;Brazil&quot; THEN &quot;Brazil&quot; &#13;&#10;ELSEIF  ([Country]) = &quot;India&quot; THEN &quot;India&quot; &#13;&#10;ELSEIF ([Country]) = &quot;USA&quot; THEN &quot;USA&quot; &#13;&#10;ELSEIF ([Country]) = &quot;Russia&quot; THEN &quot;Russia&quot; &#13;&#10;ELSEIF ([Country]) = &quot;France&quot; THEN &quot;France&quot; &#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[New Cases]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[New Deaths]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2223933796451827712]' derivation='None' name='[none:Calculation_2223933796451827712:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date]' derivation='None' name='[none:Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Active_Cases]' derivation='Sum' name='[sum:Active_Cases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Cases]' derivation='Sum' name='[sum:New Cases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Deaths]' derivation='Sum' name='[sum:New Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[Exclusions (Colors Five,Country,Date)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Calculation_2223933796451827712:nk]' />
+                <groupfilter function='level-members' level='[none:Country:nk]' />
+                <groupfilter function='level-members' level='[none:Date:qk]' />
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:Calculation_2223933796451827712:nk]' member='&quot;Black&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:Country:nk]' member='&quot;France&quot;' />
+                  <groupfilter function='member' level='[none:Date:qk]' member='#2020-05-19#' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[Exclusions (Country,Date)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Country:nk]' />
+                <groupfilter function='level-members' level='[none:Date:qk]' />
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:Country:nk]' member='&quot;France&quot;' />
+                <groupfilter function='member' level='[none:Date:qk]' member='#2020-06-02#' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Cases:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Cases:qk]</column>
+            <column>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[Exclusions (Country,Date)]</column>
+            <column>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[Exclusions (Colors Five,Country,Date)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Date:qk]' scope='cols' value='Date' />
+            <format attr='auto-subtitle' class='0' field='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Date:qk]' scope='cols' value='false' />
+            <format attr='subtitle' class='0' field='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Date:qk]' scope='cols' value='By Month' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Deaths:qk]' />
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]' />
+              <color column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Calculation_2223933796451827712:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Cases:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Deaths:qk]' />
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]' />
+              <color column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Calculation_2223933796451827712:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Deaths:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Deaths:qk]' />
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]' />
+              <color column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Calculation_2223933796451827712:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:Active_Cases:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Deaths:qk]' />
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]' />
+              <color column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Calculation_2223933796451827712:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Cases:qk] + ([federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Deaths:qk] + [federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:Active_Cases:qk]))</rows>
+        <cols>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{BD849E66-A6C5-4DE3-9A1A-102F727C7ACC}' />
+    </worksheet>
+    <worksheet name='Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='worldometers_snapshots_April18_ (worldometers_snapshots_April18_to_September20)' name='federated.1qpnhej1l6uuov1gbs4xx17g6ijw' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1qpnhej1l6uuov1gbs4xx17g6ijw'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column caption='Total Cases' datatype='integer' name='[Total_Cases]' role='measure' type='quantitative' />
+            <column caption='Total Deaths' datatype='integer' name='[Total_Deaths]' role='measure' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total_Cases]' derivation='Sum' name='[sum:Total_Cases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total_Deaths]' derivation='Sum' name='[sum:Total_Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Brazil&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;France&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;India&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Russia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;USA&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[Longitude (generated)]' field-type='quantitative' max='23870124.304163523' min='-21940639.38251128' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[Latitude (generated)]' field-type='quantitative' max='10936460.306573613' min='-4271210.8646661118' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='outdoors' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:Total_Cases:qk]' />
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:Total_Deaths:qk]' />
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[Latitude (generated)]</rows>
+        <cols>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{0D37EB44-DF24-4AC7-B219-4D2564C508F0}' />
+    </worksheet>
+    <worksheet name='New Cases By Country'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>New Cases By Country</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='worldometers_snapshots_April18_ (worldometers_snapshots_April18_to_September20)' name='federated.1qpnhej1l6uuov1gbs4xx17g6ijw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qpnhej1l6uuov1gbs4xx17g6ijw'>
+            <column caption='Colors Five' datatype='string' name='[Calculation_2223933796451827712]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF ([Country]) = &quot;Brazil&quot; THEN &quot;Brazil&quot; &#13;&#10;ELSEIF  ([Country]) = &quot;India&quot; THEN &quot;India&quot; &#13;&#10;ELSEIF ([Country]) = &quot;USA&quot; THEN &quot;USA&quot; &#13;&#10;ELSEIF ([Country]) = &quot;Russia&quot; THEN &quot;Russia&quot; &#13;&#10;ELSEIF ([Country]) = &quot;France&quot; THEN &quot;France&quot; &#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[New Cases]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2223933796451827712]' derivation='None' name='[none:Calculation_2223933796451827712:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date]' derivation='None' name='[none:Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Cases]' derivation='Sum' name='[sum:New Cases:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[Exclusions (Country,Date)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Country:nk]' />
+                <groupfilter function='level-members' level='[none:Date:qk]' />
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:Country:nk]' member='&quot;France&quot;' />
+                <groupfilter function='member' level='[none:Date:qk]' member='#2020-06-02#' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Cases:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Cases:qk]</column>
+            <column>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[Exclusions (Country,Date)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Date:qk]' scope='cols' value='Date' />
+            <format attr='auto-subtitle' class='0' field='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Date:qk]' scope='cols' value='false' />
+            <format attr='subtitle' class='0' field='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Date:qk]' scope='cols' value='By Month' />
+            <format attr='height' field='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Date:qk]' value='64' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Cases:qk]' />
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]' />
+              <color column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Calculation_2223933796451827712:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Cases:qk]</rows>
+        <cols>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{5CFC97C8-0742-4EEB-A266-1CA7EF57536C}' />
+    </worksheet>
+    <worksheet name='New Deaths By Country'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='worldometers_snapshots_April18_ (worldometers_snapshots_April18_to_September20)' name='federated.1qpnhej1l6uuov1gbs4xx17g6ijw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qpnhej1l6uuov1gbs4xx17g6ijw'>
+            <column caption='Colors Five' datatype='string' name='[Calculation_2223933796451827712]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF ([Country]) = &quot;Brazil&quot; THEN &quot;Brazil&quot; &#13;&#10;ELSEIF  ([Country]) = &quot;India&quot; THEN &quot;India&quot; &#13;&#10;ELSEIF ([Country]) = &quot;USA&quot; THEN &quot;USA&quot; &#13;&#10;ELSEIF ([Country]) = &quot;Russia&quot; THEN &quot;Russia&quot; &#13;&#10;ELSEIF ([Country]) = &quot;France&quot; THEN &quot;France&quot; &#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[New Deaths]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2223933796451827712]' derivation='None' name='[none:Calculation_2223933796451827712:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date]' derivation='None' name='[none:Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Deaths]' derivation='Sum' name='[sum:New Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Brazil&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;France&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;India&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Russia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;USA&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Deaths:qk]' included-values='in-range'>
+            <min>0</min>
+            <max>4497</max>
+          </filter>
+          <slices>
+            <column>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Deaths:qk]</column>
+            <column>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Deaths:qk]' />
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]' />
+              <color column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Calculation_2223933796451827712:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+          </pane>
+        </panes>
+        <rows>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[sum:New Deaths:qk]</rows>
+        <cols>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{B3036ECC-2436-41B7-BEBE-1382E41179F7}' />
+    </worksheet>
+    <worksheet name='Population'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Percentage Positive Patients by Total Population</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='worldometers_snapshots_April18_ (worldometers_snapshots_April18_to_September20)' name='federated.1qpnhej1l6uuov1gbs4xx17g6ijw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qpnhej1l6uuov1gbs4xx17g6ijw'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Percentage_Positive]' role='measure' type='quantitative' />
+            <column-instance column='[Percentage_Positive]' derivation='Avg' name='[avg:Percentage_Positive:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month-Trunc' name='[tmn:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[avg:Percentage_Positive:qk]' scope='cols' value='Percentage Positive Population' />
+            <format attr='title' class='0' field='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[tmn:Date:qk]' scope='rows' value='Month' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#69aaa5' />
+                <format attr='size' value='2.5082871913909912' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[tmn:Date:qk]</rows>
+        <cols>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[avg:Percentage_Positive:qk]</cols>
+      </table>
+      <simple-id uuid='{B3F19071-7071-4967-982C-E13F2B6970FA}' />
+    </worksheet>
+    <worksheet name='Total Cases'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Gradual Rise in cases( from April to September)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='worldometers_snapshots_April18_ (worldometers_snapshots_April18_to_September20)' name='federated.1qpnhej1l6uuov1gbs4xx17g6ijw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qpnhej1l6uuov1gbs4xx17g6ijw'>
+            <column datatype='integer' name='[Calculation1]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='ZN(SUM([Population])) - LOOKUP(ZN(SUM([Population])), -1)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Population]' role='measure' type='quantitative' />
+            <column caption='Total Cases' datatype='integer' name='[Total_Cases]' role='measure' type='quantitative' />
+            <column-instance column='[Total_Cases]' derivation='Avg' name='[avg:Total_Cases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date]' derivation='Month-Trunc' name='[tmn:Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation1]' derivation='User' name='[usr:Calculation1:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]'>
+            <groupfilter function='level-members' level='[none:Country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[avg:Total_Cases:qk]' scope='rows' value='Total Cases' />
+            <format attr='title' class='0' field='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[tmn:Date:qk]' scope='cols' value='Month' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[usr:Calculation1:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[avg:Total_Cases:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[avg:Total_Cases:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/square' />
+                <format attr='mark-color' value='#e15759' />
+                <format attr='mark-labels-mode' value='range' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[avg:Total_Cases:qk]</rows>
+        <cols>[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[tmn:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{EC21E72E-8E93-482A-8418-655723FCF239}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Chris_Dashboard'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='24398' id='7' param='horz' type-v2='layout-flow' w='99048' x='476' y='17264'>
+            <zone h='24398' id='5' type-v2='layout-basic' w='89524' x='476' y='17264'>
+              <zone h='24398' id='3' name='New Cases By Country' w='44762' x='476' y='17264'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='24398' id='9' name='New Deaths By Country' w='44762' x='45238' y='17264'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='24398' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9524' x='90000' y='17264'>
+              <zone h='12199' id='8' name='New Cases By Country' pane-specification-id='3' param='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Calculation_2223933796451827712:nk]' type-v2='color' w='9524' x='90000' y='17264'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='12199' id='11' name='Map' w='9524' x='90000' y='29463'>
+                <layout-cache minheight='244' minwidth='202' type-h='scalable' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='43416' id='10' name='Deaths And Cases' w='99048' x='476' y='47051'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='3807' id='12' type-v2='text' w='49519' x='476' y='899'>
+            <formatted-text>
+              <run>Research Question 1 - What period saw the most community spread during the pandemic ?</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='3862' id='13' type-v2='text' w='49529' x='49995' y='899'>
+            <formatted-text>
+              <run>Research Question 2 - Did the resulting community spread contribute to herd immunity and lead to a reduction of deaths, new cases and total cases?</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='12558' id='14' type-v2='text' w='49519' x='476' y='4706'>
+            <formatted-text>
+              <run fontcolor='#000000dd' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol' fontsize='11'>By looking at the graph below it can be said that the peak in India was in September, In the US and Brazil it was in July, France peaked in May and Russia peaked in June. Among these nations France, India had nationwide lockdowns and the rest had lockdowns determined by States and Provinces around this same time. After these nations and inturn provinces and states unlocked however, cases started to increase vastly. We can say the periods where they peaked is when community spread was at its peak.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='12503' id='15' type-v2='text' w='49529' x='49995' y='4761'>
+            <formatted-text>
+              <run fontsize='11'>In 4/5 countries the resulting community spread contributed to a reduction of deaths. In the US, during the peak we can see that the cases were at an all time high however deaths were still quite low, this is because the peak led to a large amount of people being infected and hence a lower amount of deaths as re-infections were milder.In Brazil, France and Russia a similar trend emerges. We can hence say that the community spread led to a reduction of cases, and herd immunity did play a part in ending the first wave.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='8634' id='16' type-v2='text' w='99048' x='476' y='90467'>
+            <formatted-text>
+              <run fontsize='11'>Furthermore, when looking at the new cases, new deaths and active cases graphs it can be said that at the peak of active cases it seems like new deaths, cases both decrease and hit a low indicating that the herd immunity that forms as a result of a large number of people having the virus creates a bubble to prevent more people from catching it aswell as making reinfections less serious due to the presence of existing anti-bodies. This somewhat proves that herd immunity does work until a new varient of the virus springs up that evades existing immunity.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='5389' id='17' type-v2='text' w='99048' x='476' y='41662'>
+            <formatted-text>
+              <run>Looking at the trend of the graphs above we can tell that the general trend of the new deaths graph is declining indicating that deaths are going down and connecting it to the active cases it proves that herd immunity and previous exposure to the virus does infact slow down the spread of the virus. Furthermore early on the number of deaths are quite high even though cases aren&apos;t (USA for instance where new cases stand at 21000 and deaths are nearly 3000).</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='43' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98158' id='42' param='vert' type-v2='layout-flow' w='99018' x='491' y='921'>
+                <zone h='3807' id='12' type-v2='text' w='49505' x='491' y='921'>
+                  <formatted-text>
+                    <run>Research Question 1 - What period saw the most community spread during the pandemic ?</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3862' id='13' type-v2='text' w='49513' x='49996' y='921'>
+                  <formatted-text>
+                    <run>Research Question 2 - Did the resulting community spread contribute to herd immunity and lead to a reduction of deaths, new cases and total cases?</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='12552' id='14' type-v2='text' w='49505' x='491' y='4728'>
+                  <formatted-text>
+                    <run fontcolor='#000000dd' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol' fontsize='11'>By looking at the graph below it can be said that the peak in India was in September, In the US and Brazil it was in July, France peaked in May and Russia peaked in June. Among these nations France, India had nationwide lockdowns and the rest had lockdowns determined by States and Provinces around this same time. After these nations and inturn provinces and states unlocked however, cases started to increase vastly. We can say the periods where they peaked is when community spread was at its peak.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='12497' id='15' type-v2='text' w='49513' x='49996' y='4783'>
+                  <formatted-text>
+                    <run fontsize='11'>In 4/5 countries the resulting community spread contributed to a reduction of deaths. In the US, during the peak we can see that the cases were at an all time high however deaths were still quite low, this is because the peak led to a large amount of people being infected and hence a lower amount of deaths as re-infections were milder.In Brazil, France and Russia a similar trend emerges. We can hence say that the community spread led to a reduction of cases, and herd immunity did play a part in ending the first wave.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='187' h='24387' id='3' is-fixed='true' name='New Cases By Country' w='44595' x='491' y='17280'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12193' id='8' name='New Cases By Country' pane-specification-id='3' param='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Calculation_2223933796451827712:nk]' type-v2='color' w='9828' x='89681' y='17280'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='187' h='24387' id='9' is-fixed='true' name='New Deaths By Country' w='44595' x='45086' y='17280'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='89' h='12194' id='11' is-fixed='true' name='Map' w='9828' x='89681' y='29473'>
+                  <layout-cache minheight='251' minwidth='202' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='5386' id='17' type-v2='text' w='99018' x='491' y='41667'>
+                  <formatted-text>
+                    <run>Looking at the trend of the graphs above we can tell that the general trend of the new deaths graph is declining indicating that deaths are going down and connecting it to the active cases it proves that herd immunity and previous exposure to the virus does infact slow down the spread of the virus. Furthermore early on the number of deaths are quite high even though cases aren&apos;t (USA for instance where new cases stand at 21000 and deaths are nearly 3000).</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43397' id='10' is-fixed='true' name='Deaths And Cases' w='99018' x='491' y='47053'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='8629' id='16' type-v2='text' w='99018' x='491' y='90450'>
+                  <formatted-text>
+                    <run fontsize='11'>Furthermore, when looking at the new cases, new deaths and active cases graphs it can be said that at the peak of active cases it seems like new deaths, cases both decrease and hit a low indicating that the herd immunity that forms as a result of a large number of people having the virus creates a bubble to prevent more people from catching it aswell as making reinfections less serious due to the presence of existing anti-bodies. This somewhat proves that herd immunity does work until a new varient of the virus springs up that evades existing immunity.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F6EBF5B6-2908-430B-950D-3F8DA2D6343F}' />
+    </dashboard>
+    <dashboard name='FinalDashboard'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='86821' id='7' param='horz' type-v2='layout-flow' w='99064' x='468' y='12332'>
+            <zone h='86821' id='5' type-v2='layout-basic' w='89702' x='468' y='12332'>
+              <zone h='23142' id='3' name='New Cases By Country' w='44851' x='468' y='26799'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='28942' id='9' name='Deaths And Cases' w='89702' x='468' y='70211'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='20270' id='10' name='New Deaths By Country' w='44851' x='468' y='49941'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='28939' id='12' name='Total Cases' w='44851' x='45319' y='12332'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='28940' id='21' name='Population' w='44851' x='45319' y='41271'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='14467' id='35' name='Map' w='44851' x='468' y='12332'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='86821' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9362' x='90170' y='12332'>
+              <zone fixed-size='143' h='15995' id='8' is-fixed='true' name='New Cases By Country' pane-specification-id='3' param='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Calculation_2223933796451827712:nk]' type-v2='color' w='9362' x='90170' y='12332'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='11485' id='28' type-v2='text' w='99064' x='468' y='847'>
+            <formatted-text>
+              <run fontalignment='1' fontname='Tableau Bold' fontsize='18'>Final Dashboard</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='39' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98266' id='38' param='vert' type-v2='layout-flow' w='99034' x='483' y='867'>
+                <zone forceUpdate='true' h='11481' id='28' type-v2='text' w='99034' x='483' y='867'>
+                  <formatted-text>
+                    <run fontalignment='1' fontname='Tableau Bold' fontsize='18'>Final Dashboard</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='107' h='14461' id='35' is-fixed='true' name='Map' w='44689' x='483' y='12348'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='223' h='28927' id='12' is-fixed='true' name='Total Cases' w='44689' x='45172' y='12348'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='178' h='23133' id='3' is-fixed='true' name='New Cases By Country' w='44689' x='483' y='26809'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='143' h='16360' id='8' name='New Cases By Country' pane-specification-id='3' param='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Calculation_2223933796451827712:nk]' type-v2='color' w='9656' x='89861' y='12348'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='224' h='28928' id='21' is-fixed='true' name='Population' w='44689' x='45172' y='41275'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='154' h='20261' id='10' is-fixed='true' name='New Deaths By Country' w='44689' x='483' y='49942'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='223' h='28930' id='9' is-fixed='true' name='Deaths And Cases' w='89378' x='483' y='70203'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D336A157-A349-442F-B0F1-D8F0E2B3EE11}' />
+    </dashboard>
+    <dashboard name='Yatharth_Dashboard'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='worldometers_snapshots_April18_ (worldometers_snapshots_April18_to_September20)' name='federated.1qpnhej1l6uuov1gbs4xx17g6ijw' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1qpnhej1l6uuov1gbs4xx17g6ijw'>
+        <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+        <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98306' id='7' param='horz' type-v2='layout-flow' w='99064' x='468' y='847'>
+            <zone h='98306' id='5' type-v2='layout-basic' w='89702' x='468' y='847'>
+              <zone h='56358' id='3' name='Total Cases' w='44848' x='468' y='847'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='56358' id='14' name='Population' w='44854' x='45316' y='847'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='true' h='41948' id='15' type-v2='text' w='89702' x='468' y='57205'>
+                <formatted-text>
+                  <run>Research Question:&#10;</run>
+                  <run bold='true' fontcolor='#24292e' fontsize='16'>1.Which time period had a more significant rise in total cases when compared to each other?</run>
+                  <run>Æ&#10;</run>
+                  <run fontcolor='#24292e' fontsize='11'>Ans: After analyzing the line graph above, it is clear that there was a significant rise in cases from June onwards. This conclusion is drawn because the curve is relatively steep from July to September than from April to June. As per research and suggestion from the BBC, we can say that the months after June, many countries uplift their nationalized lockdowns, thus resulting in a significant rise in cases. This became one of the main reasons for the steepness of the curve. Now we hit our average number of cases in July, but then we had a sudden rise in cases, and by the end of September, we had noticed cases rising above 160k. Thus, the time frame of April to June had a significantly lower rise in cases; now, this evidence can suggest that nationalized lockdowns played their part in keeping the curve lower. But after July to September, when lockdowns were eased or lifted in many countries, we noticed the rise in cases to be way higher. </run>
+                  <run>&#10;Research Question:&#10;</run>
+                  <run bold='true' fontcolor='#24292e' fontsize='16'>2.Was the positive patient percentage in these two time frames different or did they still remain the same?</run>
+                  <run>Æ&#10;</run>
+                  <run fontsize='11'>Ans: </run>
+                  <run>Æ&#10;</run>
+                  <run fontsize='11'>The Percentage Positive Patients graph above will help us understand what percentage of the total population in the world was affected by the SARS-CoV-2(an Average). The significance of this graph is to let us analyze how adversely we were affected by the virus and with different countries having different populations, which period had the rise in percentage population getting positive the most. This data will help understand how the lockdown periods had a lower number of people affected by the virus than the eased out period or no lockdown times. This graph above thus concludes that there was a difference in the percentage of the population affected by the virus. We also see that the curve has a massive leap at the start but then becomes constant towards September. </run>
+                  <run>Æ&#10;</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98306' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9362' x='90170' y='847'>
+              <zone h='98306' id='8' name='Total Cases' param='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]' type-v2='filter' w='9362' x='90170' y='847'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98266' id='31' param='vert' type-v2='layout-flow' w='99034' x='483' y='867'>
+                <zone h='98266' id='8' mode='checkdropdown' name='Total Cases' param='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]' type-v2='filter' w='9656' x='89861' y='867'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='56336' id='3' is-fixed='true' name='Total Cases' w='44687' x='483' y='867'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='56336' id='14' is-fixed='true' name='Population' w='44691' x='45170' y='867'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='41930' id='15' type-v2='text' w='89378' x='483' y='57203'>
+                  <formatted-text>
+                    <run>Research Question:&#10;</run>
+                    <run bold='true' fontcolor='#24292e' fontsize='16'>1.Which time period had a more significant rise in total cases when compared to each other?</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#24292e' fontsize='11'>Ans: After analyzing the line graph above, it is clear that there was a significant rise in cases from June onwards. This conclusion is drawn because the curve is relatively steep from July to September than from April to June. As per research and suggestion from the BBC, we can say that the months after June, many countries uplift their nationalized lockdowns, thus resulting in a significant rise in cases. This became one of the main reasons for the steepness of the curve. Now we hit our average number of cases in July, but then we had a sudden rise in cases, and by the end of September, we had noticed cases rising above 160k. Thus, the time frame of April to June had a significantly lower rise in cases; now, this evidence can suggest that nationalized lockdowns played their part in keeping the curve lower. But after July to September, when lockdowns were eased or lifted in many countries, we noticed the rise in cases to be way higher. </run>
+                    <run>&#10;Research Question:&#10;</run>
+                    <run bold='true' fontcolor='#24292e' fontsize='16'>2.Was the positive patient percentage in these two time frames different or did they still remain the same?</run>
+                    <run>Æ&#10;</run>
+                    <run fontsize='11'>Ans: </run>
+                    <run>Æ&#10;</run>
+                    <run fontsize='11'>The Percentage Positive Patients graph above will help us understand what percentage of the total population in the world was affected by the SARS-CoV-2(an Average). The significance of this graph is to let us analyze how adversely we were affected by the virus and with different countries having different populations, which period had the rise in percentage population getting positive the most. This data will help understand how the lockdown periods had a lower number of people affected by the virus than the eased out period or no lockdown times. This graph above thus concludes that there was a difference in the percentage of the population affected by the virus. We also see that the curve has a massive leap at the start but then becomes constant towards September. </run>
+                    <run>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D8E45083-8C7B-4D7D-A85F-3DC4CA08F56E}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Total Cases'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Country:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C0131481-A36B-4210-B990-CD8CEEC3D02A}' />
+    </window>
+    <window class='worksheet' name='Population'>
+      <cards>
+        <edge name='left'>
+          <strip size='128'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='24'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{12087FC7-A618-4A17-BA7F-8F08CC2845B1}' />
+    </window>
+    <window class='worksheet' name='New Cases By Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Calculation_2223933796451827712:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C4B1A531-5165-42C2-B539-9D16C671BA4D}' />
+    </window>
+    <window class='worksheet' name='New Deaths By Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='38'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Calculation_2223933796451827712:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AB81A0FA-CE6C-4FEE-971E-5295430EF510}' />
+    </window>
+    <window class='worksheet' name='Deaths And Cases'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='38'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='8' param='[federated.1qpnhej1l6uuov1gbs4xx17g6ijw].[none:Calculation_2223933796451827712:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{93C4CBCB-81E8-4370-8D97-BA0F858DCD8C}' />
+    </window>
+    <window class='worksheet' name='Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='38'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{209678F9-0DDE-4532-B42A-64DB7E29F3F0}' />
+    </window>
+    <window class='dashboard' name='Chris_Dashboard'>
+      <viewpoints>
+        <viewpoint name='Deaths And Cases'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='New Cases By Country'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='New Deaths By Country'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <device-preview visible='true' />
+      <simple-id uuid='{6AF5E9DC-3B79-463D-AF81-15467FE2A3C4}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Yatharth_Dashboard'>
+      <viewpoints>
+        <viewpoint name='Population'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Cases'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='8' />
+      <simple-id uuid='{633D7DC4-E3EB-4669-98E9-242C5B7C2127}' />
+    </window>
+    <window class='dashboard' name='FinalDashboard'>
+      <viewpoints>
+        <viewpoint name='Deaths And Cases'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='New Cases By Country'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='New Deaths By Country'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Population'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Cases'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='6' />
+      <simple-id uuid='{559C7119-D4B5-46D6-A850-3B49C3DFF9A9}' />
+    </window>
+  </windows>
+</workbook>
